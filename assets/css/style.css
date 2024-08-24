@@ -1,0 +1,52 @@
+body {
+    position: absolute;
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    background-size: cover;
+    background-image: url("../img/OneNight.jpg");
+    /* background-color: #53202f; */
+    z-index: 0;
+    filter: blur(3em) brightness(50%);
+}
+
+h1 {
+    position: relative;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+
+}
+
+img {
+    border-radius: 1em;
+    position: relative;
+    background-color: #fff;
+    background-size: 5em;
+}
+
+audio {
+    position: relative;
+    padding-top: 2em;
+    border-radius: 2em;
+    filter: drop-shadow(0 0 2px #fff);
+    border-radius: 10px;
+    background: none;
+  
+}
+
+audio:hover {
+    opacity: 70%;
+}
+
